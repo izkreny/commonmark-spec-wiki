@@ -99,6 +99,10 @@ library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
 
  - [commonmark](http://cran.r-project.org/package=commonmark) (wraps the C library)
 
+### Racket
+
+ - [commonmark](https://lexi-lambda.github.io/racket-commonmark/) — native Racket, with full test coverage
+
 ### Rust
 
  - [comrak](https://github.com/kivikakk/comrak) - Architecture based on cmark-gfm, with GitHub extensions.
