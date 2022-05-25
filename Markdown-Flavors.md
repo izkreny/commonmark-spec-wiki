@@ -23,6 +23,7 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Markdown-it](https://github.com/markdown-it/markdown-it#syntax-extensions)
 - [Markua](https://leanpub.com/markua/read)
 - [Maruku](http://maruku.rubyforge.org/maruku.html)
+- [Mathpix Markdown](https://mathpix.com/docs/mathpix-markdown/overview)
 - [MultiMarkdown](http://fletcher.github.io/MultiMarkdown-4/)
 - [Pandoc's Markdown](http://pandoc.org/README.html#pandocs-markdown)
 - [PHP Markdown Extra Extended](https://github.com/egil/php-markdown-extra-extended)
