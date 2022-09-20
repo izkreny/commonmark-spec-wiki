@@ -2,6 +2,7 @@ A list of Markdown flavors in alphabetical order.
 
 The aim of this list is to document all Markdown syntax variations (rather than implementations). There is [a list of Markdown implementations](https://github.com/markdown/markdown.github.com/wiki/Implementations) on the Markdown GitHub Organization which could be reviewed to find further flavors to add to this list.
 
+- [Bitbucket's Markdown](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
 - [CommonMark](http://spec.commonmark.org/)
 - [CriticMarkup](http://criticmarkup.com/spec.php)
 - [Discount](http://www.pell.portland.or.us/~orc/Code/discount/#Language.extensions)
@@ -31,10 +32,12 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Python Markdown](http://pythonhosted.org/Markdown/extensions/)
 - [R Markdown](https://rmarkdown.rstudio.com/)
 - [Redcarpet](https://github.com/vmg/redcarpet)
+- [Reddit-flavored Markdown](https://www.reddit.com/wiki/markdown/)
 - [Remarkable](https://github.com/jonschlinkert/remarkable#syntax-extensions)
 - [Rhythmus](http://rhythmus.be/building-a-magazine/#extending-markdown)
 - [Scholarly Markdown](http://scholarlymarkdown.com/Scholarly-Markdown-Guide.html)
 - [Showdown](https://github.com/showdownjs/showdown/wiki/Known-Differences-in-Output)
+- [Sourceforge's Markdown](https://sourceforge.net/nf/markdown_syntax)
 - [StackOverflow's Markdown](http://stackoverflow.com/editing-help)
 - [Taiga Markdown](https://tree.taiga.io/support/misc/taiga-markdown-syntax/)
 - [Trello's Markdown](http://help.trello.com/article/821-using-markdown-in-trello)
