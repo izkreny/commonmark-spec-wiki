@@ -14,7 +14,7 @@
 
 ### Common Lisp
 
-- [cl-cmark](https://gitlab.com/HiPhish/cl-cmark)
+- [cl-cmark](https://gitlab.com/HiPhish/cl-cmark) (wraps the C library)
 
 ### Crystal
 
