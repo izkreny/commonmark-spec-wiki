@@ -12,6 +12,10 @@
 - [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) - available on [NuGet](https://www.nuget.org/packages/CommonMark.NET/)
 - [Markdig](https://github.com/lunet-io/markdig) - available on [NuGet](https://www.nuget.org/packages/Markdig/)
 
+### Common Lisp
+
+- [cl-cmark](https://gitlab.com/HiPhish/cl-cmark)
+
 ### Crystal
 
 - [markd](https://github.com/icyleaf/markd) - written in Crystal
