@@ -80,6 +80,10 @@
 
   - [The Markdown Package for TeX](https://github.com/witiko/markdown) (Rewrite of lunamark Lua library for typesetting CommonMark documents in TeX)
 
+### OCaml
+
+- [Cmarkit](https://erratique.ch/software/cmarkit) – pure OCaml implementation
+
 ### Perl
 
 - [CommonMark](https://metacpan.org/release/CommonMark) (wraps the C library)
