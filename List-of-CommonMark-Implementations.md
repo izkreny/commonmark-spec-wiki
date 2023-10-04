@@ -27,7 +27,7 @@
 
 ### Dart
 
-- [mdown](https://github.com/dikmax/mdown)
+- [markdown](https://github.com/dart-lang/markdown)
 
 ### Elixir
 
@@ -149,6 +149,10 @@ library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
 ## Not recently maintained
 
 These projects are based on earlier versions of CommonMark and are now obsolete.  But they might be good starting points for new work.
+
+### Dart
+
+- [mdown](https://github.com/dikmax/mdown)
 
 ### Idris
 
