@@ -27,7 +27,7 @@
 
 ### Dart
 
-- [markdown](https://github.com/dart-lang/markdown)
+- [markdown](https://github.com/dart-lang/markdown) (Available on [Pub](https://pub.dev/packages/markdown))
 
 ### Elixir
 
