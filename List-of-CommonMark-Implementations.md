@@ -118,6 +118,7 @@ library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
 
  - [comrak](https://github.com/kivikakk/comrak) - Architecture based on cmark-gfm, with GitHub extensions.
  - [pulldown-cmark](https://github.com/google/pulldown-cmark) - Novel, performance-oriented architecture.
+ - [markdown-rs](https://github.com/wooorm/markdown-rs) - CommonMark compliant markdown parser with ASTs and extensions
 
 ### Scala
 
