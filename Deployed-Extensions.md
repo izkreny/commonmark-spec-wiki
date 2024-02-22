@@ -149,13 +149,16 @@ Optional image size may be supplied in some variants after – or before? docume
 ### Figure
 ↩︎↩︎ `![caption](figure.img)` ↩︎↩︎  
 `![](figure.img)` ↩︎  
-`: caption`
+`: caption`  
+↩︎↩︎ `![](figure.img)` ↩︎↩︎  
+`![](figure.img)` ↩︎  
+` caption`  
 `=== [caption]` ↩︎  
 `![](figure.img)` ↩︎  
 `===`  
 `#Figure: caption` ↩︎  
 `![](figure.img)` 
-Figures, i.e. floating image blocks, with caption can either be derived from standard paragraphs, that contain nothing but a picture link, or are made with a special fenced block that also contains the normal link. The caption can be taken from existing `alt` and `title` or it is found either as an attribute to the opening fence or in another line starting with a colon (and an optional label like `Caption: ` or `Figure: `). Equals signs as fences are problematic, though, because they certainly will be taken as heading underlines somewhere. Another flavor uses headings that start with an English keyword followed by a colon.
+Figures, i.e. floating image blocks, with caption can either be derived from standard paragraphs, that contain nothing but a picture link, or are made with a special fenced block that also contains the normal link. The caption can be taken from existing `alt` and `title` or it is found either as an attribute to the opening fence or in another line starting with a colon (and an optional label like `Caption: ` or `Figure: `), or with a number of spaces less than 4. Equals signs as fences are problematic, though, because they certainly will be taken as heading underlines somewhere. Another flavor uses headings that start with an English keyword followed by a colon.
 * [Test figure syntax](https://babelmark.github.io/?normalize=1&text=%3D%3D%3D+%5Bcaption%5D%0A!%5B%5D(figure.png)%0A%3D%3D%3D%0A%0A%3D%3D%3D%0A!%5Bno+caption%5D(figure.png)%0A%3D%3D%3D%0A%0A!%5Bcaption%5D(figure.png+%22title%22)%0A%0A)
 * **Recommendation:** Strongly suggest that implementations should consider a paragraph containing nothing but images as a floating figure with caption. Explicit captions prefixed by a colon are also worth considering, the optional labels being turned into classes for styling in HTML output. 
 
