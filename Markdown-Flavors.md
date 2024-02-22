@@ -40,6 +40,7 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Sourceforge's Markdown](https://sourceforge.net/nf/markdown_syntax)
 - [StackOverflow's Markdown](http://stackoverflow.com/editing-help)
 - [Taiga Markdown](https://tree.taiga.io/support/misc/taiga-markdown-syntax/)
+- [Taufik Nurrohman's Markdown](https://github.com/taufik-nurrohman/markdown?tab=readme-ov-file#image-block)
 - [Trello's Markdown](http://help.trello.com/article/821-using-markdown-in-trello)
 - [vfmd](http://www.vfmd.org/vfmd-spec/syntax/)
 - [Xcode/Swift Playgrounds Markup](https://developer.apple.com/library/ios/documentation/Xcode/Reference/xcode_markup_formatting_ref/index.html#//apple_ref/doc/uid/TP40016497)
