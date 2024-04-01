@@ -87,6 +87,7 @@
 ### Perl
 
 - [CommonMark](https://metacpan.org/release/CommonMark) (wraps the C library)
+- [pmarkdown](https://metacpan.org/dist/Markdown-Perl) - pure Perl implementation
 
 ### PHP
 
