@@ -1,16 +1,17 @@
 ## Recently maintained projects
 
+A project is listed here if its default branch has a commit in the last three years and the repository is not archived.
+
 ### C
 
 - [cmark](https://github.com/commonmark/cmark) (reference
   implementation, high performance executable and library)
-- [cmark-gfm](https://github.com/github/cmark) - GitHub's fork of cmark with extensions for tables, etc.
+- [cmark-gfm](https://github.com/github/cmark-gfm) - GitHub's fork of cmark with extensions for tables, etc.
 - [MD4C](https://github.com/mity/md4c) - very fast parser implementation with minimalistic interface (in XML-parsing analogy, it is more like a SAX parser, not DOM parser)
 
 ### C# ###
 
-- [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) - available on [NuGet](https://www.nuget.org/packages/CommonMark.NET/)
-- [Markdig](https://github.com/lunet-io/markdig) - available on [NuGet](https://www.nuget.org/packages/Markdig/)
+- [Markdig](https://github.com/xoofx/markdig) - available on [NuGet](https://www.nuget.org/packages/Markdig/)
 
 ### Common Lisp
 
@@ -22,25 +23,18 @@
 
 ### D
 
-- [commonmark-d](https://github.com/p0nce/commonmark-d) (port of MD4C)
-- [hunt-markdown](https://github.com/huntlabs/hunt-markdown) (port of commonmark-java)
+- [commonmark-d](https://github.com/AuburnSounds/commonmark-d) (port of MD4C)
 
 ### Dart
 
-- [markdown](https://github.com/dart-lang/markdown) - available on [Pub](https://pub.dev/packages/markdown)
+- [markdown](https://github.com/dart-lang/tools/tree/main/pkgs/markdown) - available on [Pub](https://pub.dev/packages/markdown)
 
 ### Elixir
 
-- [Cmark](https://github.com/asaaki/cmark.ex) (wraps the C library)
-
-### Emacs Lisp
-
-- [cmark](https://github.com/taku0/cmark-el) (port of commonmark.js)
+- [MDEx](https://github.com/leandrocp/mdex) (wraps the Rust library comrak)
 
 ### Go
 
-- [golang-commonmark/markdown](https://gitlab.com/golang-commonmark/markdown) - pure Go implementation
-- [go-commonmark](https://github.com/rhinoman/go-commonmark) (wraps the C library)
 - [goldmark](https://github.com/yuin/goldmark) - pure Go implementation
 - [Lute](https://github.com/88250/lute) - pure Go implementation
 
@@ -49,10 +43,6 @@
 - [cmark](http://hackage.haskell.org/package/cmark) (wraps the C library)
 - [commonmark-hs](https://github.com/jgm/commonmark-hs) - pure Haskell implementation
 
-### Haxe
-
-- [necmark](https://github.com/ConstNW/necmark) (wraps the C library) - neko target
-
 ### Java
 
 - [commonmark-java](https://github.com/commonmark/commonmark-java) - pure Java
@@ -60,16 +50,21 @@
 
 ### JavaScript
 
-- [commonmark.js](https://github.com/jgm/commonmark.js) (reference
+- [commonmark.js](https://github.com/commonmark/commonmark.js) (reference
   implementation) - [`npm install commonmark`](https://www.npmjs.org/package/commonmark)
 - [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation) - [`npm install markdown-it`](https://www.npmjs.org/package/markdown-it)
-- [cmark-emscripten](https://github.com/mvasilkov/cmark-emscripten) (port of the C library to [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)) - [`npm install cmark-emscripten`](https://www.npmjs.com/package/cmark-emscripten)
 - [mdx](https://github.com/mdx-js/mdx) (superset of CommonMark that adds embedded JSX and import/export syntax)
+- [micromark](https://github.com/micromark/micromark) - small, safe, 100% CommonMark compliant parser - [`npm install micromark`](https://www.npmjs.com/package/micromark)
+- [markdown-exit](https://github.com/serkodev/markdown-exit) (TypeScript rewrite of markdown-it with full CommonMark support) - [`npm install markdown-exit`](https://www.npmjs.com/package/markdown-exit)
 - [ciceromark](https://github.com/accordproject/markdown-transform) - The CiceroMark DOM extends the CommonMark DOM for [smart legal contracts](https://www.accordproject.org); defining nodes for `Clause`, `Variable`, and `ComputedVariable`  
 
 ### Julia
 
 - [CommonMark.jl](https://github.com/MichaelHatherly/CommonMark.jl) (pure Julia implementation with extensions)
+
+### Kotlin
+
+- [markdown](https://github.com/JetBrains/markdown) - Kotlin multiplatform parser with a CommonMark flavour (and GFM)
 
 ### Lua
 
@@ -84,6 +79,10 @@
 
 - [Cmarkit](https://erratique.ch/software/cmarkit) – pure OCaml implementation
 
+### Pascal
+
+  - [Markdown4D](https://github.com/GDKsoftware/Markdown4D) - Delphi, passes all examples of CommonMark 0.31.2
+
 ### Perl
 
 - [CommonMark](https://metacpan.org/release/CommonMark) (wraps the C library)
@@ -91,19 +90,21 @@
 
 ### PHP
 
-- [league/commonmark](http://commonmark.thephpleague.com/) - Highly-extensible PHP implementation based on commonmark.js with support for custom extensions
-- [cmark](http://docs.php.net/cmark) - PECL extension based on the original [cmark](https://github.com/jgm/cmark) implementation
+- [league/commonmark](https://commonmark.thephpleague.com/) - Highly-extensible PHP implementation based on commonmark.js with support for custom extensions
+- [mdparser](https://github.com/iliaal/mdparser) - native C extension, CommonMark 0.31 and GFM
 
 ### Python
 
-- [markdown-it-py](https://github.com/ExecutableBookProject/markdown-it-py) - A pure Python port of the JS markdown-it library; High speed and pluggable
+- [markdown-it-py](https://github.com/executablebooks/markdown-it-py) - A pure Python port of the JS markdown-it library; High speed and pluggable
+- [paka.cmark](https://github.com/kapyshin/paka.cmark) (CFFI bindings to the C library)
 - [mistletoe](https://github.com/miyuchina/mistletoe) - Fastest, extensible implementation in pure Python
 - [Marko](https://github.com/frostming/marko) - A pure Python implementation, focusing on easy extensibility
 
 ### Ruby/RubyMotion
 
-- [CommonMarker](https://github.com/gjtorikian/commonmarker) (wraps the C library)
-- [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it/) - Based on the JS markdown-it library, ported to Ruby and RubyMotion
+- [CommonMarker](https://github.com/gjtorikian/commonmarker) (wraps the Rust library comrak)
+- [markly](https://github.com/socketry/markly) (wraps cmark-gfm, fork of CommonMarker)
+- [inkmark](https://github.com/yaroslav/inkmark) (wraps the Rust library pulldown-cmark)
 
 ### R
 
@@ -116,8 +117,85 @@
 ### Rust
 
  - [comrak](https://github.com/kivikakk/comrak) - Architecture based on cmark-gfm, with GitHub extensions.
- - [pulldown-cmark](https://github.com/google/pulldown-cmark) - Novel, performance-oriented architecture.
+ - [pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) - Novel, performance-oriented architecture.
  - [markdown-rs](https://github.com/wooorm/markdown-rs) - CommonMark compliant markdown parser with ASTs and extensions
+
+### Swift
+
+  - [MarkdownKit](https://github.com/objecthub/swift-markdownkit) - pure Swift, CommonMark 0.31.2
+  - [MarkdownSyntax](https://github.com/hebertialmeida/MarkdownSyntax) (wraps reference C library for AST access)
+
+### Tcl
+
+  - [tcl-cmark](https://github.com/apnadkarni/tcl-cmark) - wraps cmark-gfm
+
+### TypeScript
+
+  - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) (JS library bindings, [NuGet](https://www.nuget.org/packages/commonmark.TypeScript.DefinitelyTyped))
+
+### Zig
+
+  - [koino](https://github.com/kivikakk/koino) - Architecture based on Comrak/cmark-gfm, with GitHub extensions
+
+## Not recently maintained
+
+These projects are archived or have had no commit in the last three years.  Some are based on earlier versions of CommonMark and are now obsolete.  But they might be good starting points for new work.
+
+### C#
+
+- [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) - available on [NuGet](https://www.nuget.org/packages/CommonMark.NET/)
+
+### D
+
+- [hunt-markdown](https://github.com/huntlabs/hunt-markdown) (port of commonmark-java)
+
+### Dart
+
+- [mdown](https://github.com/dikmax/mdown)
+
+### Elixir
+
+- [Cmark](https://github.com/asaaki/cmark.ex) (wraps the C library)
+
+### Emacs Lisp
+
+- [cmark](https://github.com/taku0/cmark-el) (port of commonmark.js)
+
+### Go
+
+- [golang-commonmark/markdown](https://gitlab.com/golang-commonmark/markdown) - pure Go implementation
+- [go-commonmark](https://github.com/rhinoman/go-commonmark) (wraps the C library)
+
+### Haxe
+
+- [comark](https://github.com/ConstNW/comark)
+- [necmark](https://github.com/ConstNW/necmark) (wraps the C library) - neko target
+
+### Idris
+
+- [idris-commonmark](https://github.com/soimort/idris-commonmark)
+
+### JavaScript
+
+- [cmark-emscripten](https://github.com/mvasilkov/cmark-emscripten) (port of the C library to [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)) - [`npm install cmark-emscripten`](https://www.npmjs.com/package/cmark-emscripten)
+
+### Lua
+
+- [luacmark](https://github.com/jgm/luacmark)
+- [commonmark-lua](https://github.com/jgm/commonmark-lua) - luajit + FFI
+
+### PHP
+
+- [cmark](http://docs.php.net/cmark) - PECL extension based on the original [cmark](https://github.com/commonmark/cmark) implementation
+
+### Python
+
+- [pycommonmark](https://github.com/bpabel/pycommonmark)
+- [commonmark.py](https://github.com/readthedocs/commonmark.py) - deprecated in favor of [markdown-it-py](https://github.com/executablebooks/markdown-it-py)
+
+### Ruby/RubyMotion
+
+- [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it/) - Based on the JS markdown-it library, ported to Ruby and RubyMotion
 
 ### Scala
 
@@ -129,51 +207,11 @@
 
 ### Swift
 
-  - [Down](https://github.com/iwasrobbed/Down) (wraps reference cmark)
-  - [SwiftMark](https://github.com/Pyroh/SwiftMark) (wraps the C library)
-  - [MarkdownSyntax](https://github.com/hebertialmeida/MarkdownSyntax) (wraps reference C library for AST access)
-
-### Tcl
-
-  - [tcl-cmark](https://github.com/apnadkarni/tcl-cmark) - wraps cmark-gfm
+- [CommonMark.swift](https://github.com/bnickel/CommonMark.swift)
+- [SmarkDown.swft](https://github.com/SwiftStudies/SmarkDown) - Pure Swift
+- [Down](https://github.com/johnxnguyen/Down) (wraps reference cmark)
+- [SwiftMark](https://github.com/Pyroh/SwiftMark) (wraps the C library)
 
 ### TypeScript
 
-  - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) (JS library bindings, [NuGet](https://www.nuget.org/packages/commonmark.TypeScript.DefinitelyTyped))
-  - [FlavorMark](https://github.com/AnyhowStep/flavormark) (Rewrite of commonmark.js with focus on modularizing parsing logic, [npm](https://www.npmjs.com/package/flavormark))
-
-### Zig
-
-  - [koino](https://github.com/kivikakk/koino) - Architecture based on Comrak/cmark-gfm, with GitHub extensions
-
-## Not recently maintained
-
-These projects are based on earlier versions of CommonMark and are now obsolete.  But they might be good starting points for new work.
-
-### Dart
-
-- [mdown](https://github.com/dikmax/mdown)
-
-### Idris
-
-- [idris-commonmark](https://github.com/soimort/idris-commonmark)
-
-### Haxe
-
-- [comark](https://github.com/ConstNW/comark)
-
-### Lua
-
-- [luacmark](https://github.com/jgm/luacmark)
-- [commonmark-lua](https://github.com/jgm/commonmark-lua) - luajit + FFI
-
-### Python
-
-- [pycommonmark](https://github.com/bpabel/pycommonmark)
-- [commonmark.py](https://github.com/rtfd/commonmark.py) - deprecated in favor of [markdown-it-py](https://github.com/ExecutableBookProject/markdown-it-py)
-
-
-### Swift
-
-- [CommonMark.swift](https://github.com/bnickel/CommonMark.swift)
-- [SmarkDown.swft](https://github.com/SwiftStudies/SmarkDown) - Pure Swift
+- [FlavorMark](https://github.com/AnyhowStep/flavormark) (Rewrite of commonmark.js with focus on modularizing parsing logic, [npm](https://www.npmjs.com/package/flavormark))
